@@ -16,7 +16,10 @@ header h1 a {
 	transition: .3s;
 }
 header h1 a:hover {
-	color: crimson;
+	color: #18919B;
+}
+header h1 a:active {
+	filter: brightness(50%);
 }
 header ul {
 	float: right;
@@ -29,7 +32,10 @@ header ul li a {
 	transition: .3s;
 }
 header ul li a:hover {
-	color: crimson;
+	color: #18919B;
+}
+header ul li a:active {
+	filter: brightness(50%);
 }
 a {
 	text-decoration: none;
@@ -60,7 +66,7 @@ a {
 	bottom: 0;
 	left: -300px;
 	width:300px;
-	background-color: rgba(16, 47, 80, .9);
+	background-color: #18919B;
 	transition: .3s;
 	z-index: 9999;
 }
@@ -79,7 +85,7 @@ a {
 	left: 0;
 }
 .banner {
-	background: url(https://images7.alphacoders.com/131/1318301.png);
+	background: url(image/banner5.png);
 	padding:150px 0;
 }
 section {
@@ -118,7 +124,7 @@ section h3::before {
 	bottom: 0;
 	width:120px;
 	height:1px;
-	background-color: skyblue;
+	background-color: #333;
 	left: calc(50% - 60px);
 }
 section h3::after {
@@ -139,7 +145,7 @@ section h3::after {
 }
 #skills,
 #contact {
-	background-color: #f9f9f9;
+	background: url(image/banner5.png);
 }
 #skills .bar {
 	height: 30px;
@@ -187,6 +193,10 @@ section h3::after {
 .col-4 a:hover img {
 	transform: scale(1.2);
 }
+.col-4 a:active img {
+	filter: brightness(50%);
+	transform: translateY(5px);
+}
 .col-3 {
 	width:33.33%;
 	box-sizing: border-box;
@@ -200,7 +210,7 @@ section h3::after {
 	margin-bottom: 15px;
 }
 footer {
-	background-color: #333;
+	background-color: #18919B;
 	padding:50px;
 	text-align: center;
 }
